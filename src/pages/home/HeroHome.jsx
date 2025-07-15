@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { FiStar, FiHome, FiHeadphones, FiCheckCircle } from "react-icons/fi";
-import heroimage from "../../assets/home/HeroHome.jpg";
+import heroimage from "../../assets/home/herohome.jpg?url";
 
 import { FaArrowRight } from "react-icons/fa";
 
