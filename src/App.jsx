@@ -5,9 +5,11 @@ import VillasPage from "./pages/villas/VillasPage";
 import NotFoundPage from "./components/NotFoundPage";
 import VillasDetails from "./pages/villas/VillasDetails";
 import DetailsLayout from "./layout/DetailsLayout";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<LayoutPage />}>
           <Route path="/" element={<HomePage />} />

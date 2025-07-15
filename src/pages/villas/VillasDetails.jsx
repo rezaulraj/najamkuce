@@ -117,7 +117,7 @@ const VillasDetails = () => {
   const navigate = useNavigate();
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [relatedVillas, setRelatedVillas] = useState([]);
+//   const [relatedVillas, setRelatedVillas] = useState([]);
   const villasData = {
     villas: [
       {
@@ -933,15 +933,20 @@ const VillasDetails = () => {
     (villa) => villa.title.toLowerCase().replace(/\s+/g, "-") === slug
   );
 
-  // Set related villas (excluding current villa)
-  useEffect(() => {
-    if (currentVilla) {
-      const related = villasData.villas
+  const relatedVillas = currentVilla
+    ? villasData.villas
         .filter((villa) => villa.title !== currentVilla.title)
-        .slice(0, 3);
-      setRelatedVillas(related);
-    }
-  }, [currentVilla]);
+        .slice(0, 3)
+    : [];
+  // Set related villas (excluding current villa)
+//   useEffect(() => {
+//     if (currentVilla) {
+//       const related = villasData.villas
+//         .filter((villa) => villa.title !== currentVilla.title)
+//         .slice(0, 3);
+//       setRelatedVillas(related);
+//     }
+//   }, [currentVilla]);
 
   if (!currentVilla) {
     return <div className="py-16 text-center">Villa not found</div>;

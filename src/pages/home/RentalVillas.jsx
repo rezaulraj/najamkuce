@@ -97,8 +97,10 @@ import place10i5 from "../../assets/home/place10i5.avif?url";
 import place10i6 from "../../assets/home/place10i6.avif?url";
 import place10i7 from "../../assets/home/place10i7.avif?url";
 import place10i8 from "../../assets/home/place10i8.avif?url";
+import { useNavigate } from "react-router-dom";
 
 const RentalVillas = () => {
+  const navigate = useNavigate();
   const [currentImageIndices, setCurrentImageIndices] = useState({});
 
   const [hoveredCard, setHoveredCard] = useState(null);
@@ -391,7 +393,9 @@ const RentalVillas = () => {
       return { ...prev, [placeIndex]: newIndex };
     });
   };
-
+  const createSlug = (title) => {
+    return title.toLowerCase().replace(/\s+/g, "-");
+  };
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
@@ -417,6 +421,9 @@ const RentalVillas = () => {
               whileHover={{ y: -5 }}
               onMouseEnter={() => setHoveredCard(index)}
               onMouseLeave={() => setHoveredCard(null)}
+              onClick={() =>
+                navigate(`/villas/${createSlug(place.placeTitle)}`)
+              }
             >
               {/* Image with Navigation */}
               <div className="relative h-64 overflow-hidden">
