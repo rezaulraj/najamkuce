@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   FiArrowLeft,
   FiArrowRight,
@@ -98,6 +99,7 @@ import place10i6 from "../../assets/home/place10i6.avif?url";
 import place10i7 from "../../assets/home/place10i7.avif?url";
 import place10i8 from "../../assets/home/place10i8.avif?url";
 const AllVillas = () => {
+  const navigate = useNavigate();
   const [currentImageIndices, setCurrentImageIndices] = useState({});
 
   const [hoveredCard, setHoveredCard] = useState(null);
@@ -390,7 +392,9 @@ const AllVillas = () => {
       return { ...prev, [placeIndex]: newIndex };
     });
   };
-
+  const createSlug = (title) => {
+    return title.toLowerCase().replace(/\s+/g, "-");
+  };
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
@@ -414,6 +418,9 @@ const AllVillas = () => {
               whileHover={{ y: -5 }}
               onMouseEnter={() => setHoveredCard(index)}
               onMouseLeave={() => setHoveredCard(null)}
+              onClick={() =>
+                navigate(`/villas/${createSlug(place.placeTitle)}`)
+              }
             >
               {/* Image with Navigation */}
               <div className="relative h-64 overflow-hidden">

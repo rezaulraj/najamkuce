@@ -18,7 +18,7 @@ import {
 import CountryFlag from "react-country-flag";
 import logo from "/logo1.png";
 import logoblack from "/logo2.png";
-const Header = () => {
+const DetailHeader = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [languageOpen, setLanguageOpen] = useState(false);
@@ -79,7 +79,7 @@ const Header = () => {
   return (
     <header
       className={`fixed w-full z-50 transition-colors duration-300 ${
-        isScrolled ? "bg-white shadow-md" : "bg-transparent"
+        isScrolled ? "bg-white shadow-md" : "bg-white shadow-md"
       }`}
     >
       <div className="container mx-auto px-4 ">
@@ -98,7 +98,7 @@ const Header = () => {
                 <img
                   src={logoblack}
                   alt="Logo"
-                  className="h-26 transition-all duration-300 hover:scale-105"
+                  className="h-26 transition-all duration-300 hover:scale-105 brightness-300 invert"
                 />
               )}
             </a>
@@ -110,7 +110,7 @@ const Header = () => {
                 className={`${
                   isScrolled
                     ? "text-gray-800 hover:text-gray-900"
-                    : "text-primary hover:text-primary"
+                    : "text-gray-800 hover:text-gray-900"
                 } transition-transform hover:translate-y-2 duration-300 border rounded-full p-1 `}
               >
                 <FaFacebookF size={16} />
@@ -120,7 +120,7 @@ const Header = () => {
                 className={`${
                   isScrolled
                     ? "text-gray-800 hover:text-gray-900"
-                    : "text-primary hover:text-primary"
+                    : "text-gray-800 hover:text-gray-900"
                 } transition-transform hover:translate-y-2 duration-300 border rounded-full p-1 `}
               >
                 <FaTwitter size={16} />
@@ -130,7 +130,7 @@ const Header = () => {
                 className={`${
                   isScrolled
                     ? "text-gray-800 hover:text-gray-900"
-                    : "text-primary hover:text-primary"
+                    : "text-gray-800 hover:text-gray-900"
                 } transition-transform hover:translate-y-2 duration-300 border rounded-full p-1 `}
               >
                 <FaInstagram size={16} />
@@ -140,7 +140,7 @@ const Header = () => {
                 className={`${
                   isScrolled
                     ? "text-gray-800 hover:text-gray-900"
-                    : "text-primary hover:text-primary"
+                    : "text-gray-800 hover:text-gray-900"
                 } transition-transform hover:translate-y-2 duration-300 border rounded-full p-1 `}
               >
                 <FaPinterestP size={16} />
@@ -157,7 +157,7 @@ const Header = () => {
                   key={index}
                   href={item.path}
                   className={`px-3 py-2 rounded-md text-sm lg:text-base font-medium flex items-center ${
-                    isScrolled ? "text-gray-800" : "text-white"
+                    isScrolled ? "text-gray-800" : "text-gray-800"
                   } hover:text-primary transition-colors`}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -173,7 +173,7 @@ const Header = () => {
               <button
                 onClick={toggleLanguageMenu}
                 className={`flex items-center px-3 py-2 rounded-md ${
-                  isScrolled ? "text-gray-800" : "text-white"
+                  isScrolled ? "text-gray-800" : "text-gray-800"
                 } hover:bg-gray-100 hover:bg-opacity-20 transition-colors`}
               >
                 <CountryFlag
@@ -224,7 +224,7 @@ const Header = () => {
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className={`md:hidden p-2 ${
-                isScrolled ? "text-gray-800" : "text-white"
+                isScrolled ? "text-gray-800" : "text-gray-800"
               } rounded-full focus:outline-none`}
             >
               {mobileMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
@@ -281,4 +281,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default DetailHeader;
