@@ -45,7 +45,8 @@ const HomeVlog = () => {
       {/* Header */}
       <div className="max-w-7xl mx-auto text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold font-lobster leading-tight tracking-widest text-white mb-4">
-          <span className="text-[#25A69A]">Croatia</span> in Style
+          Places In
+          <span className="text-primary"> Croatia </span>
         </h2>
         <h3 className="text-2xl text-gray-300">Croatia Travel Blog</h3>
       </div>
@@ -102,8 +103,8 @@ const HomeVlog = () => {
 
       {/* View All Button */}
       <div className="text-center mt-12">
-        <button className="border-2 border-[#25A69A] text-[#25A69A] hover:bg-[#25A69A] hover:text-white font-medium py-3 px-8 rounded-lg transition-all duration-300">
-          View More
+        <button className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-medium py-3 px-8 rounded-lg transition-all duration-300">
+          View More Blogs
         </button>
       </div>
     </div>

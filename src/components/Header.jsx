@@ -16,8 +16,8 @@ import {
   FaPinterestP,
 } from "react-icons/fa";
 import CountryFlag from "react-country-flag";
-import logo from "/logo.svg";
-import logoblack from "/logoblack.svg";
+import logo from "/logo1.png";
+import logoblack from "/logo2.png";
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -82,8 +82,8 @@ const Header = () => {
         isScrolled ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+      <div className="container mx-auto px-4 ">
+        <div className="flex items-center justify-between h-20 ">
           {/* Left Side - Logo and Social Links */}
           <div className="flex items-center space-x-6">
             {/* Logo */}
@@ -92,13 +92,13 @@ const Header = () => {
                 <img
                   src={logoblack}
                   alt="Logo"
-                  className="h-10 md:h-12 transition-all duration-300 hover:scale-105"
+                  className="h-26 transition-all duration-300 hover:scale-105 brightness-300 invert"
                 />
               ) : (
                 <img
-                  src={logo}
+                  src={logoblack}
                   alt="Logo"
-                  className="h-10 md:h-12 transition-all duration-300 hover:scale-105"
+                  className="h-26 transition-all duration-300 hover:scale-105"
                 />
               )}
             </a>
@@ -107,25 +107,41 @@ const Header = () => {
             <div className="hidden md:flex items-center space-x-4">
               <a
                 href="#"
-                className="text-primary hover:text-[#257da6] transition-colors border rounded-full p-1 "
+                className={`${
+                  isScrolled
+                    ? "text-gray-800 hover:text-gray-900"
+                    : "text-primary hover:text-primary"
+                } transition-transform hover:translate-y-2 duration-300 border rounded-full p-1 `}
               >
                 <FaFacebookF size={16} />
               </a>
               <a
                 href="#"
-                className="text-primary hover:text-[#257da6] transition-colors border rounded-full p-1"
+                className={`${
+                  isScrolled
+                    ? "text-gray-800 hover:text-gray-900"
+                    : "text-primary hover:text-primary"
+                } transition-transform hover:translate-y-2 duration-300 border rounded-full p-1 `}
               >
                 <FaTwitter size={16} />
               </a>
               <a
                 href="#"
-                className="text-primary hover:text-[#257da6] transition-colors border rounded-full p-1"
+                className={`${
+                  isScrolled
+                    ? "text-gray-800 hover:text-gray-900"
+                    : "text-primary hover:text-primary"
+                } transition-transform hover:translate-y-2 duration-300 border rounded-full p-1 `}
               >
                 <FaInstagram size={16} />
               </a>
               <a
                 href="#"
-                className="text-primary hover:text-primay transition-colors border rounded-full p-1"
+                className={`${
+                  isScrolled
+                    ? "text-gray-800 hover:text-gray-900"
+                    : "text-primary hover:text-primary"
+                } transition-transform hover:translate-y-2 duration-300 border rounded-full p-1 `}
               >
                 <FaPinterestP size={16} />
               </a>

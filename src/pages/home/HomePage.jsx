@@ -3,6 +3,8 @@ import HeroHome from "./HeroHome";
 import RentalVillas from "./RentalVillas";
 import Agency from "./Agency";
 import HomeVlog from "./HomeVlog";
+import InstagramPost from "./InstragramPost";
+import Support from "./Support";
 
 const HomePage = () => {
   return (
@@ -11,6 +13,8 @@ const HomePage = () => {
       <RentalVillas />
       <Agency />
       <HomeVlog />
+      <InstagramPost />
+      <Support />
     </div>
   );
 };

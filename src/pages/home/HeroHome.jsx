@@ -56,8 +56,8 @@ const HeroHome = () => {
         >
           <div className="max-w-2xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              <span className="text-[#25A69A]">Discover</span> Your Perfect
-              Holiday Home in Croatia
+              Discover Your Perfect Holiday Home in
+              <span className="text-primary"> Croatia</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8">
               Experience luxury villas with stunning sea views, private pools,
@@ -84,7 +84,7 @@ const HeroHome = () => {
               className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-[#25A69A]/50 transition-all duration-300"
             >
               <div className="flex items-center mb-3">
-                <FiHome className="text-2xl text-[#25A69A] mr-3" />
+                <FiHome className="text-2xl text-primary mr-3" />
                 <h3 className="text-xl font-semibold text-white">
                   500+ Villas
                 </h3>
@@ -100,7 +100,7 @@ const HeroHome = () => {
               className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-[#25A69A]/50 transition-all duration-300"
             >
               <div className="flex items-center mb-3">
-                <FiStar className="text-2xl text-[#25A69A] mr-3" />
+                <FiStar className="text-2xl text-primary mr-3" />
                 <h3 className="text-xl font-semibold text-white">5★ Ratings</h3>
               </div>
               <p className="text-gray-300 text-sm">
@@ -114,7 +114,7 @@ const HeroHome = () => {
               className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-[#25A69A]/50 transition-all duration-300"
             >
               <div className="flex items-center mb-3">
-                <FiHeadphones className="text-2xl text-[#25A69A] mr-3" />
+                <FiHeadphones className="text-2xl text-primary mr-3" />
                 <h3 className="text-xl font-semibold text-white">
                   24/7 Support
                 </h3>
@@ -130,7 +130,7 @@ const HeroHome = () => {
               className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-[#25A69A]/50 transition-all duration-300"
             >
               <div className="flex items-center mb-3">
-                <FiCheckCircle className="text-2xl text-[#25A69A] mr-3" />
+                <FiCheckCircle className="text-2xl text-primary mr-3" />
                 <h3 className="text-xl font-semibold text-white">Verified</h3>
               </div>
               <p className="text-gray-300 text-sm">

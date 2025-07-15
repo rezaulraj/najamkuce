@@ -53,7 +53,7 @@ const HeroVillas = () => {
                 transition={{ duration: 0.8 }}
                 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
               >
-                <span className="text-[#25A69A]">Premium Villas</span> in
+                <span className="text-primary">Premium Villas</span> in
                 Croatia's Most Beautiful Locations
               </motion.h1>
 
@@ -72,7 +72,7 @@ const HeroVillas = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                <button className="bg-[#25A69A] hover:bg-[#1E8C82] text-white font-bold py-3 px-8 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center">
+                <button className="bg-primary hover:bg-primary text-white font-bold py-3 px-8 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center">
                   <FiHeart className="mr-2" />
                   Explore Our Collection
                 </button>
@@ -89,7 +89,7 @@ const HeroVillas = () => {
                 className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-[#25A69A]/50 transition-all duration-300"
               >
                 <div className="flex items-center mb-3">
-                  <FiMapPin className="text-2xl text-[#25A69A] mr-3" />
+                  <FiMapPin className="text-2xl text-primary mr-3" />
                   <h3 className="text-xl text-white font-semibold">
                     Prime Locations
                   </h3>
@@ -107,7 +107,7 @@ const HeroVillas = () => {
                 className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-[#25A69A]/50 transition-all duration-300"
               >
                 <div className="flex items-center mb-3">
-                  <FiStar className="text-2xl text-[#25A69A] mr-3" />
+                  <FiStar className="text-2xl text-primary mr-3" />
                   <h3 className="text-xl text-white font-semibold">
                     4.9+ Ratings
                   </h3>
@@ -125,7 +125,7 @@ const HeroVillas = () => {
                 className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-[#25A69A]/50 transition-all duration-300"
               >
                 <div className="flex items-center mb-3">
-                  <FiHome className="text-2xl text-[#25A69A] mr-3" />
+                  <FiHome className="text-2xl text-primary mr-3" />
                   <h3 className="text-xl text-white font-semibold">
                     Luxury Amenities
                   </h3>
@@ -143,7 +143,7 @@ const HeroVillas = () => {
                 className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-[#25A69A]/50 transition-all duration-300"
               >
                 <div className="flex items-center mb-3">
-                  <FiUsers className="text-2xl text-[#25A69A] mr-3" />
+                  <FiUsers className="text-2xl text-primary mr-3" />
                   <h3 className="text-xl text-white font-semibold">
                     24/7 Support
                   </h3>

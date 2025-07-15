@@ -97,8 +97,7 @@ import place10i5 from "../../assets/home/place10i5.avif?url";
 import place10i6 from "../../assets/home/place10i6.avif?url";
 import place10i7 from "../../assets/home/place10i7.avif?url";
 import place10i8 from "../../assets/home/place10i8.avif?url";
-
-const RentalVillas = () => {
+const AllVillas = () => {
   const [currentImageIndices, setCurrentImageIndices] = useState({});
 
   const [hoveredCard, setHoveredCard] = useState(null);
@@ -398,19 +397,17 @@ const RentalVillas = () => {
         {/* Header Section */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Discover Croatia's{" "}
-            <span className="text-primary">Finest Villas</span>
+            <span className="text-primary">Villas For Rent</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Explore our curated collection of luxury villas in Croatia's most
-            beautiful beach areas. Each property is handpicked for its unique
-            charm and premium amenities.
+            Luxury villas in Croatia's most beautiful beach areas. Each property
+            is handpicked for its unique charm and premium amenities.
           </p>
         </div>
 
         {/* Villas Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {places.slice(0, 6).map((place, index) => (
+          {places.map((place, index) => (
             <motion.div
               key={index}
               className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
@@ -459,7 +456,7 @@ const RentalVillas = () => {
                 </div>
 
                 {/* Price Tag */}
-                <div className="absolute bottom-4 right-4 bg-black text-gray-100 px-3 py-1 rounded-lg font-semibold shadow-lg">
+                <div className="absolute bottom-4 right-4 bg-gray-800 text-white px-3 py-1 rounded-lg font-semibold shadow-lg">
                   {place.price}
                 </div>
               </div>
@@ -513,18 +510,9 @@ const RentalVillas = () => {
             </motion.div>
           ))}
         </div>
-
-        {/* View All Button */}
-        <div className="text-center mt-12">
-          <a
-            href="/villas"
-            className="border-2 border-primary text-gray-700 hover:bg-primary hover:text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300"
-          >
-            Explore All Villas
-          </a>
-        </div>
       </div>
     </div>
   );
 };
-export default RentalVillas;
+
+export default AllVillas;

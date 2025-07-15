@@ -11,7 +11,7 @@ const Agency = () => {
         {/* Header Section */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            <span className="text-[#25A69A]">From luxury to simplicity</span>
+            <span className="text-primary">From luxury to simplicity</span>
           </h2>
           <h3 className="text-2xl text-gray-700 mb-6">Home Rent Agency</h3>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto">
@@ -45,7 +45,7 @@ const Agency = () => {
               <div className="p-6">
                 <div className="flex justify-center mb-4">
                   <div className="bg-[#25A69A]/10 p-4 rounded-full">
-                    <FiDollarSign className="text-3xl text-[#25A69A]" />
+                    <FiDollarSign className="text-3xl text-primary" />
                   </div>
                 </div>
                 <img
@@ -67,7 +67,7 @@ const Agency = () => {
               <div className="p-6">
                 <div className="flex justify-center mb-4">
                   <div className="bg-[#25A69A]/10 p-4 rounded-full">
-                    <FiShield className="text-3xl text-[#25A69A]" />
+                    <FiShield className="text-3xl text-primary" />
                   </div>
                 </div>
                 <img
@@ -89,7 +89,7 @@ const Agency = () => {
               <div className="p-6">
                 <div className="flex justify-center mb-4">
                   <div className="bg-[#25A69A]/10 p-4 rounded-full">
-                    <FiAward className="text-3xl text-[#25A69A]" />
+                    <FiAward className="text-3xl text-primary" />
                   </div>
                 </div>
                 <img
