@@ -213,7 +213,7 @@ const VillasInCroatia = () => {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-              <div className="bg-[#25A69A]/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4 text-primary">
+              <div className="bg-[#25A69A]/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4 text-[#25A69A]">
                 <FiMapPin className="text-xl" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Location</h3>
@@ -223,7 +223,7 @@ const VillasInCroatia = () => {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-              <div className="bg-[#25A69A]/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4 text-primary">
+              <div className="bg-[#25A69A]/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4 text-[#25A69A]">
                 <FiStar className="text-xl" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">
@@ -238,7 +238,7 @@ const VillasInCroatia = () => {
         </div>
 
         {/* Final CTA */}
-        <div className="text-center bg-gray-900 rounded-2xl p-12">
+        <div className="text-center bg-[#25A69A] rounded-2xl p-12">
           <h2 className="text-3xl font-bold text-white mb-6">
             Ready for Your <span className="text-white">Croatian Villa</span>{" "}
             Experience?
@@ -247,7 +247,7 @@ const VillasInCroatia = () => {
             Book your dream villa today and create unforgettable memories in one
             of Europe's most beautiful destinations.
           </p>
-          <button className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 px-8 rounded-lg transition-colors duration-300">
+          <button className="bg-white hover:bg-gray-100 text-[#25A69A] font-bold py-3 px-8 rounded-lg transition-colors duration-300">
             Browse All Villas
           </button>
         </div>
