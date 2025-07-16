@@ -51,7 +51,7 @@ const Footer = () => {
               >
                 <FiLinkedin className="text-xl" />
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="text-gray-400 hover:text-primary transition-colors"
               >
@@ -62,7 +62,7 @@ const Footer = () => {
                 className="text-gray-400 hover:text-primary transition-colors"
               >
                 <FaTripadvisor className="text-xl" />
-              </a>
+              </a> */}
             </div>
           </div>
 

@@ -463,7 +463,7 @@ const AllVillas = () => {
                 </div>
 
                 {/* Price Tag */}
-                <div className="absolute bottom-4 right-4 bg-gray-800 text-white px-3 py-1 rounded-lg font-semibold shadow-lg">
+                <div className="absolute bottom-4 right-4 bg-primary text-white px-3 py-1 rounded-lg font-semibold shadow-lg">
                   {place.price}
                 </div>
               </div>
