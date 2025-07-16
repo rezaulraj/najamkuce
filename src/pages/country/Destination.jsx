@@ -67,7 +67,7 @@ const Destination = () => {
                 </h3>
                 <p className="text-blue-100 mb-4">{destination.description}</p>
                 <Link
-                  href={destination.link}
+                  to={destination.link}
                   className="inline-flex items-center px-5 py-2 bg-white text-blue-600 rounded-full font-medium hover:bg-blue-50 transition-colors"
                 >
                   Explore
