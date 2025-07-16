@@ -2,6 +2,7 @@ import React from "react";
 import towns from "../../assets/place/town.jpg?url";
 import beach from "../../assets/place/beatch.jpg?url";
 import nationalpark from "../../assets/place/nationalpark.jpg?url";
+import { Link } from "react-router-dom";
 
 const Destination = () => {
   const destinations = [
@@ -65,7 +66,7 @@ const Destination = () => {
                   {destination.name}
                 </h3>
                 <p className="text-blue-100 mb-4">{destination.description}</p>
-                <a
+                <Link
                   href={destination.link}
                   className="inline-flex items-center px-5 py-2 bg-white text-blue-600 rounded-full font-medium hover:bg-blue-50 transition-colors"
                 >
@@ -84,7 +85,7 @@ const Destination = () => {
                       d="M14 5l7 7m0 0l-7 7m7-7H3"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           ))}
