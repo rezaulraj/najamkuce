@@ -52,7 +52,7 @@ const HeroInCroatia = () => {
           </p>
         </div>
 
-        <div className="mt-8 bg-black bg-opacity-40 px-6 py-3 rounded-full">
+        <div className="mt-8 bg-primary bg-opacity-40 px-6 py-3 rounded-full">
           <p className="text-white text-sm md:text-base uppercase tracking-widest">
             Travel Blog & Guides
           </p>

@@ -3,6 +3,7 @@ import HeroInCroatia from "./HeroInCotatia";
 import Destination from "./Destination";
 import Gastronomy from "./Gastronomy";
 import Adventures from "./Adventures";
+import NewsAndTips from "./NewAndTips";
 
 const PlaceInCoretia = () => {
   return (
@@ -11,6 +12,7 @@ const PlaceInCoretia = () => {
       <Destination />
       <Gastronomy />
       <Adventures />
+      <NewsAndTips />
     </div>
   );
 };

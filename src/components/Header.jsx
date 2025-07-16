@@ -174,7 +174,7 @@ const Header = () => {
                 onClick={toggleLanguageMenu}
                 className={`flex items-center px-3 py-2 rounded-md ${
                   isScrolled ? "text-gray-800" : "text-white"
-                } hover:bg-gray-100 hover:bg-opacity-20 transition-colors`}
+                } hover:bg-gray-100/30 hover:bg-opacity-20 transition-colors`}
               >
                 <CountryFlag
                   countryCode={currentLanguage}

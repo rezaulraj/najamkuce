@@ -26,7 +26,7 @@ const InstagramPost = () => {
             <FiInstagram className="text-white text-2xl" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-            Follow Us <span className="text-primary">@homerent</span>
+            Follow Us <span className="text-primary">@Najamkuce.Agency</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Discover Croatia through our lens and join our community of
