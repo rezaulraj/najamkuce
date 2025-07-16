@@ -6,6 +6,7 @@ import NotFoundPage from "./components/NotFoundPage";
 import VillasDetails from "./pages/villas/VillasDetails";
 import DetailsLayout from "./layout/DetailsLayout";
 import ScrollToTop from "./components/ScrollToTop";
+import PlaceInCoretia from "./pages/country/PlaceInCoretia";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<LayoutPage />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/villas" element={<VillasPage />} />
+          <Route path="/place-in-croatia-blogs" element={<PlaceInCoretia />} />
           {/* <Route path="/villas/:slug" element={<VillasDetails />} /> */}
           <Route path="*" element={<NotFoundPage />} />
           <Route path="/" element={<DetailsLayout />}>

@@ -37,7 +37,7 @@ const Header = () => {
     },
     {
       label: "Places In Croatia",
-      path: "/croatia",
+      path: "/place-in-croatia-blogs",
       icon: <FiMapPin className="mr-2" />,
     },
     {

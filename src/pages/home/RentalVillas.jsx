@@ -466,7 +466,7 @@ const RentalVillas = () => {
                 </div>
 
                 {/* Price Tag */}
-                <div className="absolute bottom-4 right-4 bg-black text-gray-100 px-3 py-1 rounded-lg font-semibold shadow-lg">
+                <div className="absolute bottom-4 right-4 bg-primary text-gray-50 px-3 py-1 rounded-lg font-semibold shadow-lg">
                   {place.price}
                 </div>
               </div>
@@ -513,9 +513,9 @@ const RentalVillas = () => {
                 </div>
 
                 {/* View Button */}
-                <button className="mt-6 w-full bg-primary hover:bg-primary text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                {/* <button className="mt-6 w-full bg-primary hover:bg-primary text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
                   View Details
-                </button>
+                </button> */}
               </div>
             </motion.div>
           ))}

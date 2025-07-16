@@ -510,9 +510,9 @@ const AllVillas = () => {
                 </div>
 
                 {/* View Button */}
-                <button className="mt-6 w-full bg-primary hover:bg-primary text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                {/* <button className="mt-6 w-full bg-primary hover:bg-primary text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
                   View Details
-                </button>
+                </button> */}
               </div>
             </motion.div>
           ))}
