@@ -72,7 +72,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
                   Home
@@ -80,7 +80,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/villas"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
                   Villas
@@ -88,21 +88,21 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/place-in-croatia-blogs"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Destinations
+                  Places In Croatia
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="contact"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  About Croatia
+                  Contact
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="#"
                   className="text-gray-400 hover:text-primary transition-colors"
@@ -117,7 +117,7 @@ const Footer = () => {
                 >
                   Contact
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -183,16 +183,16 @@ const Footer = () => {
               <li className="flex items-start">
                 <FiMapPin className="text-primary mt-1 mr-3 flex-shrink-0" />
                 <span className="text-gray-400">
-                  123 Coastal Road, Split, Croatia
+                  Vončinina ul. 14, 10000, Zagreb, Croatia
                 </span>
               </li>
               <li className="flex items-center">
                 <FiPhone className="text-primary mr-3" />
-                <span className="text-gray-400">+385 12 345 6789</span>
+                <span className="text-gray-400">0955880747</span>
               </li>
               <li className="flex items-center">
                 <FiMail className="text-primary mr-3" />
-                <span className="text-gray-400">info@homerent.com</span>
+                <span className="text-gray-400">Contact@najamkuce.agency</span>
               </li>
               <li className="flex items-center">
                 <FiClock className="text-primary mr-3" />

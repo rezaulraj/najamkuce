@@ -5,6 +5,7 @@ import event from "../../assets/corotia/blogc2.jpeg";
 import gastronomy from "../../assets/corotia/blogc3.jpg";
 import advanchare from "../../assets/corotia/blogc4.jpg";
 import newandtips from "../../assets/corotia/blogc5.webp";
+import { Link } from "react-router-dom";
 
 const HomeVlog = () => {
   const blogCategories = [
@@ -13,30 +14,35 @@ const HomeVlog = () => {
       description: "Explore Croatia's most beautiful locations",
       image: destination,
       color: "from-blue-500/80 to-blue-700/80",
+      link: "/place-in-croatia-blogs",
     },
     {
       title: "Events",
       description: "Cultural events and festivals",
       image: event,
       color: "from-purple-500/80 to-purple-700/80",
+      link: "/place-in-croatia-blogs",
     },
     {
       title: "Gastronomy",
       description: "Taste authentic Croatian cuisine",
       image: gastronomy,
       color: "from-amber-500/80 to-amber-700/80",
+      link: "/place-in-croatia-blogs",
     },
     {
       title: "Adventure",
       description: "Outdoor activities and experiences",
       image: advanchare,
       color: "from-emerald-500/80 to-emerald-700/80",
+      link: "/place-in-croatia-blogs",
     },
     {
       title: "Tips & News",
       description: "Latest travel updates and advice",
       image: newandtips,
       color: "from-rose-500/80 to-rose-700/80",
+      link: "/place-in-croatia-blogs",
     },
   ];
 
@@ -54,7 +60,10 @@ const HomeVlog = () => {
       {/* Image Grid */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Main Featured Card */}
-        <div className="md:col-span-2 lg:col-span-2 row-span-2 relative group overflow-hidden rounded-2xl">
+        <Link
+          to={"/place-in-croatia-blogs"}
+          className="md:col-span-2 lg:col-span-2 row-span-2 relative group overflow-hidden rounded-2xl"
+        >
           <img
             src={blogCategories[0].image}
             alt={blogCategories[0].title}
@@ -73,11 +82,12 @@ const HomeVlog = () => {
               <FiArrowRight className="ml-2 transition-transform group-hover:translate-x-1" />
             </button>
           </div>
-        </div>
+        </Link>
 
         {/* Other Cards */}
         {blogCategories.slice(1).map((category, index) => (
-          <div
+          <Link
+            to={category.link}
             key={index}
             className="relative group overflow-hidden rounded-2xl h-64"
           >
@@ -97,15 +107,18 @@ const HomeVlog = () => {
                 <FiArrowRight className="ml-1 transition-transform group-hover:translate-x-1" />
               </button>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
 
       {/* View All Button */}
       <div className="text-center mt-12">
-        <button className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-medium py-3 px-8 rounded-lg transition-all duration-300">
+        <Link
+          to={"/place-in-croatia-blogs"}
+          className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-medium py-3 px-8 rounded-lg transition-all duration-300"
+        >
           View More Blogs
-        </button>
+        </Link>
       </div>
     </div>
   );
