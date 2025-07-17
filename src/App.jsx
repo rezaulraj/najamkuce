@@ -26,6 +26,10 @@ import CyclingDetails from "./pages/country/CycalingDetails";
 import HikingDetails from "./pages/country/HikingDetails";
 import ExtremSportDetails from "./pages/country/ExtremSportDetails";
 import AdrenalineDetails from "./pages/country/AdrenalineDetails";
+import TravelNews from "./pages/country/TravelNews";
+import EventsCalendar from "./pages/country/LocalTips";
+import TipsForGuide from "./pages/country/TipsForGuide";
+import AboutUs from "./pages/about/AboutUs";
 function App() {
   return (
     <>
@@ -75,6 +79,11 @@ function App() {
             path="/adventures/adrenaline"
             element={<AdrenalineDetails />}
           />
+          <Route path="/news/travel-updates" element={<TravelNews />} />
+          <Route path="/news/events" element={<TipsForGuide />} />
+          <Route path="/news/local-tips" element={<EventsCalendar />} />
+          <Route path="/services" element={<EventsCalendar />} />
+          <Route path="/about-us" element={<AboutUs />} />
           {/* <Route path="/villas/:slug" element={<VillasDetails />} /> */}
           <Route path="*" element={<NotFoundPage />} />
           <Route path="/" element={<DetailsLayout />}>

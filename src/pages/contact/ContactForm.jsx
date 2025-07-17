@@ -248,11 +248,11 @@ const ContactForm = () => {
                   </p>
                   <p className="text-gray-800 font-medium flex items-center">
                     <FaPhone className="mr-2 text-primary" />
-                    +385 (0) 95 816 9064
+                    0955880747
                   </p>
                   <p className="text-gray-800 font-medium flex items-center">
                     <FaEnvelope className="mr-2 text-primary" />
-                    info@homerent.agency
+                    Contact@najamkuce.agency
                   </p>
                 </div>
 
@@ -268,21 +268,21 @@ const ContactForm = () => {
                   </p>
                   <p className="text-gray-800 font-medium flex items-center">
                     <FaPhone className="mr-2 text-primary" />
-                    +385 (0) 95 816 9064
+                    0955880747
                   </p>
                   <p className="text-gray-800 font-medium flex items-center">
                     <FaEnvelope className="mr-2 text-primary" />
-                    info@homerent.agency
+                    Contact@najamkuce.agency
                   </p>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="text-xl font-bold text-gray-800 mb-2">
-                    HEROS PLUS d.o.o.
+                    Location
                   </h3>
-                  <p className="text-gray-600 mb-1">ID: HR-AB-21-060339532</p>
-                  <p className="text-gray-600 mb-1">Mike Tripala 10, Split</p>
-                  <p className="text-gray-600">HR-21000 Croatia</p>
+                  <p className="text-gray-600 mb-1">
+                    Vončinina ul. 14, 10000, Zagreb, Croatia
+                  </p>
                 </div>
               </div>
             </div>

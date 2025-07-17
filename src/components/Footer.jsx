@@ -19,9 +19,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* About Column */}
           <div>
-            <h3 className="text-xl font-bold mb-6 text-primary">
-              Najamkuce Agency
-            </h3>
+            <a href="/">
+              <img src="/logo2.png" alt="" className="h-32" />
+            </a>
             <p className="text-gray-400 mb-6">
               Croatia's premier vacation rental agency offering luxury villas
               with the highest standards of quality and service.
@@ -72,10 +72,10 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="/"
+                  href="/about-us"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Home
+                  About Us
                 </a>
               </li>
               <li>
@@ -96,10 +96,26 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="contact"
+                  href="/services"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Contact
+                  Our Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/contact"
+                  className="text-gray-400 hover:text-primary transition-colors"
+                >
+                  Contact Us - guests
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/contact"
+                  className="text-gray-400 hover:text-primary transition-colors"
+                >
+                  Contact Us - owners
                 </a>
               </li>
               {/* <li>
@@ -123,54 +139,54 @@ const Footer = () => {
 
           {/* Destinations */}
           <div>
-            <h3 className="text-xl font-bold mb-6">Popular Destinations</h3>
+            <h3 className="text-xl font-bold mb-6">Customer Helps</h3>
             <ul className="space-y-3">
               <li>
                 <a
-                  href="#"
+                  href="/croatia/historic-towns"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Dubrovnik
+                  Historic Towns
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/croatia/beaches"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Hvar
+                  Adriatic Beaches
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/croatia/national-parks"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Split
+                  National Parks
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/gastronomy/fine-dining"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Zadar
+                  Gourmet Dining
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/adventures/adrenaline"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Rovinj
+                  Adrenaline Rush
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/adventures/extreme-sports"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Bol
+                  Extreme Sports
                 </a>
               </li>
             </ul>

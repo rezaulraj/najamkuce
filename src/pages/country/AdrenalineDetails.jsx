@@ -44,7 +44,7 @@ const AdrenalineDetails = () => {
         sectionTitle: "Top 6 Adrenaline Activities to Try",
         text: "1. Bungee Jumping - Maslenica Bridge: Jump 56 meters above the turquoise Zrmanja River.\n\n2. Zip-lining in Omiš: Soar 150 meters above Cetina Canyon at 70 km/h.\n\n3. Canyoning in Cetina: Slide, jump, and swim through gorges and waterfalls.\n\n4. Skydiving Zadar: Freefall over islands and the Adriatic Sea.\n\n5. Rock Climbing Paklenica: Home to Croatia's most iconic climbing routes.\n\n6. Sea Kayaking: Paddle past sea caves, arches, and cliffs — especially around Dubrovnik and Hvar.",
         image: {
-          url: "https://images.unsplash.com/photo-1617643652913-2a45e6430be3?auto=format&fit=crop&w=1200&q=80",
+          url: "https://images.unsplash.com/photo-1502542068853-07bc5d568c4e?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           alt: "Skydiver over Croatian coast",
         },
         icon: <GiJumpAcross className="text-3xl text-purple-600" />,
@@ -53,7 +53,7 @@ const AdrenalineDetails = () => {
         sectionTitle: "Must-Visit Adrenaline Locations",
         text: "- Omiš: Zip-lining and canyoning capital.\n- Paklenica National Park: Ideal for climbing and hiking.\n- Maslenica Bridge: Croatia's highest bungee point.\n- Zrmanja River: Perfect for rafting and kayaking.\n- Zadar & Hvar: Skydiving and sailing base.",
         image: {
-          url: "https://images.unsplash.com/photo-1582820158340-508964d92bd9?auto=format&fit=crop&w=1200&q=80",
+          url: "https://images.unsplash.com/photo-1627241129356-137242cf14f0?q=80&w=934&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           alt: "Adventure team rafting in wild Croatian river",
         },
         icon: <FaMapMarkerAlt className="text-3xl text-blue-500" />,
@@ -62,7 +62,7 @@ const AdrenalineDetails = () => {
         sectionTitle: "Best Seasons for Thrill Seekers",
         text: "Spring (April–June): Ideal for canyoning, hiking, and moderate climbing.\n\nSummer (July–August): Go big on skydiving, sea kayaking, zip-lining.\n\nAutumn (Sept–Oct): Cooler weather perfect for bungee, trail races, and climbs.\n\nWinter (Nov–Mar): Some activities pause, but indoor adventure parks and snow sports are open inland.",
         image: {
-          url: "https://images.unsplash.com/photo-1608506531758-c79e3b539fb7?auto=format&fit=crop&w=1200&q=80",
+          url: "https://images.unsplash.com/photo-1606221162503-688c9e66c0b1?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           alt: "Adrenaline seekers preparing on cliff",
         },
         icon: <FaCalendarAlt className="text-3xl text-amber-500" />,
@@ -71,7 +71,7 @@ const AdrenalineDetails = () => {
         sectionTitle: "Safety First!",
         text: "- Book with certified local adventure operators.\n- Always wear provided safety gear.\n- Check weather conditions before booking.\n- Follow guide instructions — no shortcuts!\n- Make sure your insurance covers extreme sports.",
         image: {
-          url: "https://images.unsplash.com/photo-1537884551209-5e963b31f5b9?auto=format&fit=crop&w=1200&q=80",
+          url: "https://images.unsplash.com/photo-1644000454460-6707a0d481dc?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           alt: "Climber securing ropes on mountain wall",
         },
         icon: <MdOutlineSafetyDivider className="text-3xl text-green-600" />,
@@ -80,7 +80,7 @@ const AdrenalineDetails = () => {
         sectionTitle: "Bonus Tips",
         text: "- GoPro rentals available in most adventure hubs.\n- Most activities can be done solo or as group tours.\n- Combine adrenaline tours with wine tasting or spa after for recovery.\n- Book early in summer — slots fill up fast!",
         image: {
-          url: "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&w=1200&q=80",
+          url: "https://plus.unsplash.com/premium_photo-1664299437430-340b32a129ca?q=80&w=771&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           alt: "Group of friends enjoying successful adventure",
         },
         icon: <FaLightbulb className="text-3xl text-yellow-500" />,
@@ -89,7 +89,7 @@ const AdrenalineDetails = () => {
         sectionTitle: "Wrap-Up: Adventure Awaits",
         text: "If adrenaline is your vacation fuel, Croatia is your launchpad. Combine natural beauty with thrill-seeking for a vacation that makes your heart race and your soul soar.",
         image: {
-          url: "https://images.unsplash.com/photo-1581291518857-4b67e8f04b95?auto=format&fit=crop&w=1200&q=80",
+          url: "https://plus.unsplash.com/premium_photo-1664286587695-3f62180799ad?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           alt: "Adrenaline junkie celebrating at peak",
         },
         icon: <FaFlagCheckered className="text-3xl text-black" />,
@@ -206,21 +206,21 @@ const AdrenalineDetails = () => {
                 type: "Ziplining",
                 level: "Thrilling",
                 image:
-                  "https://images.unsplash.com/photo-1520975869019-96f9c672f582?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1664286587695-3f62180799ad?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               },
               {
                 name: "Paklenica Rock Climbing",
                 type: "Climbing",
                 level: "Challenging",
                 image:
-                  "https://images.unsplash.com/photo-1510251197876-8a57daf8a3e8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1664299437430-340b32a129ca?q=80&w=771&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               },
               {
                 name: "Zrmanja River Rafting",
                 type: "Whitewater",
                 level: "Wild Ride",
                 image:
-                  "https://images.unsplash.com/photo-1582820158340-508964d92bd9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1606221162503-688c9e66c0b1?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               },
             ].map((activity, index) => (
               <motion.div
