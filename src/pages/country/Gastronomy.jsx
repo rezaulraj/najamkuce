@@ -1,6 +1,6 @@
 import React from "react";
-import food from "../../assets/place/food1.jpeg?url";
-import alcohol from "../../assets/place/wine.jpg?url";
+import food from "../../assets/place/food.avif?url";
+import alcohol from "../../assets/place/wines.avif?url";
 import restaurant from "../../assets/place/restorant.jpg?url";
 
 const Gastronomy = () => {

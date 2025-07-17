@@ -14,6 +14,7 @@ import BeatchPage from "./pages/country/beatch/BeatchPage";
 import BeatchDetails from "./pages/country/beatch/BeatchDetails";
 import NationalPark from "./pages/country/nationalpark/NationalPark";
 import NationalParkDetails from "./pages/country/nationalpark/NationalParkDetails";
+import SportsDetails from "./pages/country/details/SportsDetails";
 function App() {
   return (
     <>
@@ -28,6 +29,7 @@ function App() {
           <Route path="/croatia/beaches" element={<BeatchPage />} />
           <Route path="/croatia/national-parks" element={<NationalPark />} />
           <Route path="/croatia/beaches/:slug" element={<BeatchDetails />} />
+          <Route path="/croatia/events/:slug" element={<SportsDetails />} />
           <Route
             path="/croatia/national-parks/:slug"
             element={<NationalParkDetails />}
