@@ -4,6 +4,7 @@ import water from "../../assets/place/advwoter.jpg?url";
 import cycling from "../../assets/place/advcycel.jpg?url";
 import hiking from "../../assets/place/advhiking.jpg?url";
 import adrenaline from "../../assets/place/advadrlin.jpg?url";
+import { Link } from "react-router-dom";
 
 const Adventures = () => {
   const adventures = [
@@ -170,8 +171,8 @@ const Adventures = () => {
                     {adventure.name}
                   </h3>
                   {/* <p className="text-blue-100 mb-4">{adventure.description}</p> */}
-                  <a
-                    href={adventure.link}
+                  <Link
+                    to={adventure.link}
                     className="inline-flex items-center text-white font-medium hover:text-blue-300 transition-colors"
                   >
                     Explore activities
@@ -189,7 +190,7 @@ const Adventures = () => {
                         d="M9 5l7 7-7 7"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

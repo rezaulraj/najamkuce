@@ -2,6 +2,7 @@ import React from "react";
 import food from "../../assets/place/food.avif?url";
 import alcohol from "../../assets/place/wines.avif?url";
 import restaurant from "../../assets/place/restorant.jpg?url";
+import { Link } from "react-router-dom";
 
 const Gastronomy = () => {
   const culinaryExperiences = [
@@ -70,8 +71,8 @@ const Gastronomy = () => {
                   {item.title}
                 </h3>
                 <p className="text-amber-100 mb-4">{item.description}</p>
-                <a
-                  href={item.link}
+                <Link
+                  to={item.link}
                   className="inline-flex items-center text-primary hover:text-white font-medium transition-colors"
                 >
                   Discover more
@@ -89,7 +90,7 @@ const Gastronomy = () => {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           ))}
@@ -158,8 +159,8 @@ const Gastronomy = () => {
                   </span>
                 </li>
               </ul>
-              <a
-                href="/gastronomy/traditional-food"
+              <Link
+                to="/gastronomy/traditional-food"
                 className="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg font-medium hover:bg-amber-400 transition-colors"
               >
                 Get the Foodie Guide
@@ -177,7 +178,7 @@ const Gastronomy = () => {
                     d="M14 5l7 7m0 0l-7 7m7-7H3"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
             <div
               className="md:w-1/2 bg-cover bg-center hidden md:block"

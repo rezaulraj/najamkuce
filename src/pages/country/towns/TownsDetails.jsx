@@ -197,10 +197,9 @@ const TownsDetails = () => {
           },
         ],
         contact: {
-          phone: "+385 1 481 4051",
-          email: "info@zagreb-touristinfo.hr",
-          website: "infozagreb.hr",
-          address: "Trg bana Jelačića 11, 10000 Zagreb",
+          phone: "0955880747",
+          email: "Contact@najamkuce.agency",
+          address: "Vončinina ul. 14, 10000, Zagreb, Croatia",
           coordinates: "45.8150° N, 15.9819° E",
         },
         highlights: [

@@ -9,6 +9,7 @@ import {
 import LocalNews from "../../assets/place/news.webp?url";
 import tipsforowner from "../../assets/place/owner.png?url";
 import tipsforguide from "../../assets/place/tipsguide.avif?url";
+import { Link } from "react-router-dom";
 
 const NewsAndTips = () => {
   const items = [
@@ -77,13 +78,13 @@ const NewsAndTips = () => {
                   <h3 className="text-2xl font-bold text-white mb-1">
                     {item.name}
                   </h3>
-                  <a
-                    href={item.link}
+                  <Link
+                    to={item.link}
                     className="inline-flex items-center text-white font-medium hover:text-blue-300 transition-colors"
                   >
                     Read more
                     <FaArrowRight className="h-4 w-4 ml-2" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
