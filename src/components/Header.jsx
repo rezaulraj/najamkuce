@@ -49,9 +49,9 @@ const Header = () => {
 
   const languages = [
     { code: "GB", name: "English" },
-    { code: "HR", name: "Croatian" },
-    { code: "DE", name: "German" },
-    { code: "FR", name: "French" },
+    // { code: "HR", name: "Croatian" },
+    // { code: "DE", name: "German" },
+    // { code: "FR", name: "French" },
   ];
 
   useEffect(() => {

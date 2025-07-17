@@ -159,7 +159,7 @@ const Gastronomy = () => {
                 </li>
               </ul>
               <a
-                href="/gastronomy/guide"
+                href="/gastronomy/traditional-food"
                 className="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg font-medium hover:bg-amber-400 transition-colors"
               >
                 Get the Foodie Guide

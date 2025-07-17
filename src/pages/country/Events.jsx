@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import sports from "../../assets/place/sport.avif?url";
 import music from "../../assets/place/music.webp?url";
 import culture from "../../assets/place/curture.webp?url";
@@ -17,7 +17,7 @@ const Events = () => {
     {
       id: 1,
       title: "Sports Events",
-      slug: "water-sports",
+      link: "/croatia/sports",
       description:
         "Experience thrilling sports competitions and join the excitement of live games with fellow enthusiasts.",
       image: sports,
@@ -27,7 +27,7 @@ const Events = () => {
     {
       id: 2,
       title: "Music Concerts",
-      slug: "music-concerts",
+      link: "/croatia/music",
       description:
         "Immerse yourself in the rhythm of live performances from your favorite artists and bands.",
       image: music,
@@ -37,7 +37,7 @@ const Events = () => {
     {
       id: 3,
       title: "Cultural Festivals",
-      slug: "cultural-festivals",
+      link: "/croatia/cultural-festivals",
       description:
         "Celebrate diversity with traditional performances, art exhibitions, and cultural showcases.",
       image: culture,
@@ -45,10 +45,6 @@ const Events = () => {
       icon: <FaGlobeAmericas className="text-green-500" />,
     },
   ];
-
-  const handleCardClick = (slug) => {
-    navigate(`/croatia/events/${slug}`); // Keep this consistent with your router
-  };
 
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
@@ -64,9 +60,9 @@ const Events = () => {
 
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {events.map((event) => (
-            <div
+            <Link
+              to={event.link}
               key={event.id}
-              onClick={() => handleCardClick(event.slug)}
               className="group bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer"
             >
               <div className="relative h-80 overflow-hidden">
@@ -94,7 +90,7 @@ const Events = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
